@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 680 560" role="img" font-family="'Segoe UI', system-ui, sans-serif">
+<title>Diagnostic reasoning architecture</title>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#8A8F99" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowM" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#AFA9EC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowP" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#B4B2A9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<style>
+.t{font-size:12px;fill:#8A8F99}.th{font-size:14px;font-weight:500;fill:#4A1B0C}
+.albl{font-family:Georgia,serif;font-style:italic;font-size:12px;fill:#8A8F99}
+</style>
+<rect width="680" height="560" fill="#14161A"/>
+
+<rect x="60" y="22" width="470" height="128" rx="10" fill="none" stroke="#8A8F99" stroke-width="1" stroke-dasharray="5 4" opacity="0.7"/>
+<text class="t" x="522" y="16" text-anchor="end">dedicated domain agents</text>
+
+<g><rect x="74" y="32" width="70" height="70" rx="12" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><path d="M109 46 L113 62 L128 66 L113 70 L109 86 L105 70 L90 66 L105 62 Z" fill="#F0997B"/></g>
+<text class="t" x="109" y="122" text-anchor="middle">Domain</text><text class="t" x="109" y="138" text-anchor="middle">agent 1</text>
+<g><rect x="174" y="32" width="70" height="70" rx="12" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><path d="M209 46 L213 62 L228 66 L213 70 L209 86 L205 70 L190 66 L205 62 Z" fill="#F0997B"/></g>
+<text class="t" x="209" y="122" text-anchor="middle">Domain</text><text class="t" x="209" y="138" text-anchor="middle">agent 2</text>
+<circle cx="282" cy="67" r="2.5" fill="#8A8F99"/><circle cx="294" cy="67" r="2.5" fill="#8A8F99"/><circle cx="306" cy="67" r="2.5" fill="#8A8F99"/>
+<g><rect x="344" y="32" width="70" height="70" rx="12" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><path d="M379 46 L383 62 L398 66 L383 70 L379 86 L375 70 L360 66 L375 62 Z" fill="#F0997B"/></g>
+<text class="t" x="379" y="122" text-anchor="middle">Domain</text><text class="t" x="379" y="138" text-anchor="middle">agent 3</text>
+<g><rect x="444" y="32" width="70" height="70" rx="12" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><path d="M479 46 L483 62 L498 66 L483 70 L479 86 L475 70 L460 66 L475 62 Z" fill="#F0997B"/></g>
+<text class="t" x="479" y="122" text-anchor="middle">Domain</text><text class="t" x="479" y="138" text-anchor="middle">agent 4</text>
+<g><rect x="560" y="32" width="70" height="70" rx="12" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/><path d="M595 46 L599 62 L614 66 L599 70 L595 86 L591 70 L576 66 L591 62 Z" fill="#EF9F27"/>
+<line x1="595" y1="32" x2="595" y2="22" stroke="#8A8F99" stroke-width="1.5"/><line x1="595" y1="102" x2="595" y2="112" stroke="#8A8F99" stroke-width="1.5"/>
+<line x1="560" y1="67" x2="550" y2="67" stroke="#8A8F99" stroke-width="1.5"/><line x1="630" y1="67" x2="640" y2="67" stroke="#8A8F99" stroke-width="1.5"/></g>
+<text class="t" x="595" y="122" text-anchor="middle">Scribe</text><text class="t" x="595" y="138" text-anchor="middle">agent</text>
+
+<g><path d="M212 214 H332 V264 Q322 258 312 264 Q302 270 292 264 Q282 258 272 264 Q262 270 252 264 Q242 258 232 264 Q222 270 212 264 Z" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5" opacity="0.45"/>
+<path d="M200 202 H320 V252 Q310 246 300 252 Q290 258 280 252 Q270 246 260 252 Q250 258 240 252 Q230 246 220 252 Q210 258 200 252 Z" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<line x1="214" y1="220" x2="306" y2="220" stroke="#8A8F99" stroke-width="1" opacity="0.6"/><line x1="214" y1="234" x2="306" y2="234" stroke="#8A8F99" stroke-width="1" opacity="0.6"/></g>
+<text class="t" x="260" y="278" text-anchor="middle">Claims store</text>
+<g><path d="M404 214 H524 V264 Q514 258 504 264 Q494 270 484 264 Q474 258 464 264 Q454 270 444 264 Q434 258 424 264 Q414 270 404 264 Z" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5" opacity="0.45"/>
+<path d="M392 202 H512 V252 Q502 246 492 252 Q482 258 472 252 Q462 246 452 252 Q442 258 432 252 Q422 246 412 252 Q402 258 392 252 Z" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<line x1="406" y1="220" x2="498" y2="220" stroke="#8A8F99" stroke-width="1" opacity="0.6"/><line x1="406" y1="234" x2="498" y2="234" stroke="#8A8F99" stroke-width="1" opacity="0.6"/></g>
+<text class="t" x="452" y="278" text-anchor="middle">Traces store</text>
+
+<text class="albl" x="200" y="180" text-anchor="middle" fill="#AFA9EC">materialized claims</text>
+<path d="M270 152 Q250 178 258 200" fill="none" stroke="#AFA9EC" stroke-width="1.3" marker-end="url(#arrowM)"/>
+<path d="M595 102 Q560 150 458 158 Q360 166 300 190" fill="none" stroke="#AFA9EC" stroke-width="1.3" marker-end="url(#arrowM)"/>
+<path d="M660 330 Q676 270 526 238" fill="none" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="albl" x="592" y="300" text-anchor="middle">always record</text>
+
+<rect x="60" y="330" width="614" height="180" rx="16" fill="#FAECE7" fill-opacity="0.12" stroke="#D85A30" stroke-width="0.5"/>
+<text class="th" x="78" y="352" fill="#F0997B">Planner agent</text>
+<path d="M202 338 L205 349 L217 352 L205 355 L202 366 L199 355 L187 352 L199 349 Z" fill="#F0997B"/>
+
+<g><circle cx="16" cy="448" r="11" fill="none" stroke="#8A8F99" stroke-width="1.5"/><line x1="16" y1="459" x2="16" y2="479" stroke="#8A8F99" stroke-width="1.5"/>
+<line x1="4" y1="490" x2="16" y2="479" stroke="#8A8F99" stroke-width="1.5"/><line x1="28" y1="490" x2="16" y2="479" stroke="#8A8F99" stroke-width="1.5"/><line x1="4" y1="467" x2="28" y2="467" stroke="#8A8F99" stroke-width="1.5"/></g>
+<line x1="32" y1="471" x2="88" y2="471" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="albl" x="58" y="488" text-anchor="middle">multimodal</text>
+
+<g><rect x="90" y="378" width="140" height="58" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text class="th" x="160" y="398" text-anchor="middle" fill="#412402">Agent-assisted</text><text class="th" x="160" y="414" text-anchor="middle" fill="#412402">hypothesis</text>
+<text x="160" y="430" text-anchor="middle" font-style="italic" font-size="12" fill="#BA7517">(phase 2)</text></g>
+<g><rect x="90" y="450" width="140" height="44" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><text class="th" x="160" y="476" text-anchor="middle">Clarifier</text></g>
+<g><rect x="360" y="412" width="130" height="56" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><text class="th" x="425" y="444" text-anchor="middle">Reasoner</text></g>
+<g><rect x="524" y="378" width="90" height="46" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><text class="th" x="569" y="405" text-anchor="middle">Validator</text></g>
+<g><polygon points="644,420 668,442 644,464 620,442" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/><text class="t" x="644" y="446" text-anchor="middle">Done?</text></g>
+
+<text class="albl" x="300" y="478" text-anchor="middle">initiate</text>
+<line x1="230" y1="472" x2="358" y2="456" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="albl" x="300" y="402" text-anchor="middle">revise</text>
+<path d="M230 400 Q300 414 358 430" fill="none" stroke="#8A8F99" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text class="albl" x="300" y="440" text-anchor="middle">all failed</text>
+<path d="M358 446 Q300 438 232 424" fill="none" stroke="#8A8F99" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M490 430 Q510 414 522 402" fill="none" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M614 401 Q642 406 644 418" fill="none" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="albl" x="520" y="490" text-anchor="middle">continue</text>
+<path d="M624 456 Q510 498 492 458" fill="none" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="albl" x="300" y="536" text-anchor="middle">verdict</text>
+<path d="M644 464 L644 522 L90 522" fill="none" stroke="#8A8F99" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<path d="M260 254 Q320 340 385 420" fill="none" stroke="#B4B2A9" stroke-width="1" opacity="0.85" marker-end="url(#arrowP)"/>
+<path d="M452 254 Q440 340 435 410" fill="none" stroke="#B4B2A9" stroke-width="1" opacity="0.85" marker-end="url(#arrowP)"/>
+<path d="M608 380 Q684 300 672 196" fill="none" stroke="#B4B2A9" stroke-width="1" opacity="0.85"/>
+<text class="albl" x="660" y="210" text-anchor="middle">verify</text>
+<path d="M672 196 Q660 150 628 106" fill="none" stroke="#B4B2A9" stroke-width="1" opacity="0.85" marker-end="url(#arrowP)"/>
+<path d="M672 196 Q620 140 534 116" fill="none" stroke="#B4B2A9" stroke-width="1" opacity="0.85" marker-end="url(#arrowP)"/>
+</svg>
